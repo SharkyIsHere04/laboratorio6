@@ -1,0 +1,79 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue;
+}
+
+.navbar{
+    text-align: center;
+    width: 960px;
+    height: 45px;
+}
+ul{
+    padding: 0;
+    margin: 0;
+    height: 45px;
+    list-style: none;
+}
+li{
+    float: left;
+    padding: 15px 2
+}
+a{
+    color: blue;                                                        
+    padding: 0px 20px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none; 
+}
+
+
+.subtitulo{
+    text-align: left;
+}
+.cuadro{
+    width: auto;
+    height: auto;
+    padding:  50px;
+    margin: 40px;
+    border: 10px solid black;
+
+}
+.post-body{
+    text-align: justify;
+}
+  
+  .price-table {
+    width: 100%;
+    border-collapse: collapse; /* Elimina los espacios entre las celdas */
+  }
+  
+  .price-table th, .price-table td {
+    border: 1px solid black; /* Bordes de las celdas */
+    padding: 10px;
+    text-align: center; /* Centra el texto */
+  }
+  
+  .price-table th {
+    background-color: #f2f2f2; /* Color de fondo de los encabezados */
+  }
+
+  .gallery{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+  }
+
+  footer{
+    background-color: #2e2e2e;
+    color:white;
+    text-align: center;
+    padding: 20px 0;
+    width: 100%;
+    margin: 0;
+  }
+
